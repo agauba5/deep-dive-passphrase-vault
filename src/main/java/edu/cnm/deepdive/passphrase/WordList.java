@@ -22,7 +22,7 @@ public class WordList {
     }
     words = wordList.toArray(new String[wordList.size()]);
   }
-  
+
 
   public static String getRandom(Random rng){
     return Singleton.INSTANCE.words[rng.nextInt(Singleton.INSTANCE.words.length)];

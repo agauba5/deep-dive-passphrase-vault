@@ -21,11 +21,11 @@ public class Options {
       org.apache.commons.cli.CommandLine cmdLine = parser.parse(options, args);
 
       if(cmdLine.hasOption("l")) {
-        System.out.println("length");
+        System.out.println(Constants.LENGTH_OPTION);
       }
 
       if(cmdLine.hasOption("d")) {
-        System.out.println("delimiter");
+        System.out.println(Constants.DELIMITER_OPTION);
       }
 
       if(cmdLine.hasOption("?")) {
